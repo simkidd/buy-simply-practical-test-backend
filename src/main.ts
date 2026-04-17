@@ -4,7 +4,7 @@ import { config } from './utils/config';
 import * as express from 'express';
 import { ValidationPipe } from '@nestjs/common';
 
-const prodOrigins = ['https://stock-snap-client.vercel.app'];
+const prodOrigins = ['https://'];
 const devOrigins = ['http://localhost:3000', 'http://localhost:5173'];
 
 const env = config.NODE_ENV;
